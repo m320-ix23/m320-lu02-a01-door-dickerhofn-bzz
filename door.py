@@ -86,7 +86,8 @@ class Door:
               f'Türe offen: {self._door_is_open}'
               f'Türe verriegelt: {self._door_is_locked}')
 
-    # Am Ende folgen die getter- und setter-Methoden für die Attribute der Klasse
+    # Am Ende folgen die getter- und setter-Methoden
+    # für die Attribute der Klasse
     # getter werden mit der Anotation @property markiert.
     @property
     def door_is_open(self):
