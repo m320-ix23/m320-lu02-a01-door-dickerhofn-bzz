@@ -42,7 +42,7 @@ class Door:
         Methode für das öffnen der Türe.
         Das ist aber nur möglich, wenn die Türe nicht verriegelt ist.
         """
-        if self._door_is_locked == False:
+        if not self._door_is_locked:
             self._door_is_open = True
 
     def close_the_door(self):
