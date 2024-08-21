@@ -72,7 +72,8 @@ class Door:
         entriegeln der Türe
         Das ist nur möglich, wenn die Türe
         verriegelt ist.
-        Für das entriegeln ist aber das Türschloss zuständig. Es weiss wie das geht.
+        Für das entriegeln ist aber das Türschloss zuständig.
+        Es weiss wie das geht.
         """
         if self._door_is_locked:
             self._door_is_locked = self._the_door_lock.unlock()
