@@ -64,7 +64,7 @@ class Door:
         Es weiss wie das geht.
         """
         if not self._door_is_open:
-           self._door_is_locked = self._the_door_lock.lock()
+            self._door_is_locked = self._the_door_lock.lock()
 
     def unlock_the_door(self):
         """
