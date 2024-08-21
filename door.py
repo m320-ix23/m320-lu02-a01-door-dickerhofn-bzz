@@ -111,7 +111,7 @@ nur für die korrekte Übersetzung und Ausführung
 
 class DoorLock:
     """
-    dummy Klasse, damit in der Klasse Tuere kein Fehler auftritt
+    dummy Klasse, damit in der Klasse Tuere kein Fehler auf tri tt
     """
 
     def __init__(self):
