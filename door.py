@@ -82,7 +82,7 @@ class Door:
     def door_ist_locked(self):
         """
         getter-Methode für den Zustand door_is_locked
-        :return: true, wenn die Türe verriegelt ist, sonst false
+        :return: true, wenn die Türe ver ri egelt ist, sonst false
         """
         return self._door_is_locked
 
